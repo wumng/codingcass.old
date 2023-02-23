@@ -1,29 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cassandra's Website</title>
+	<meta charset="utf-8">
+	<title>Cassandra Carlos</title>
+	<link rel="icon" type="image/jpg" href="images/favicon.jpg"/>
+	<link rel="stylesheet" href="c1.css">
+	<link rel="stylesheet" href="c2.css">
+	<link rel="stylesheet" href="c3.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Coding Cass (Cassandra Carlos)</h1>
-<p>This is my personal portfolio website. I am building it from scratch using HTML, CSS & JavaScript.</p>
-<h2>This is what I need to do:</h2>
-<ul>
-	<li>Clear Instagram archives ✓</li>
-	<li>Post very basic index.html file to github ✓</li>
-	<li>Link website in Instagram archive ✓</li>
-	<li>Write biography content for GitHub, Instagram & personal website</li>
-</ul>
-<h2>My goals:</h2>
-<ol>
-	<li>Launch personal portfolio website to the public as 'codingcass.com'</li>
-	<li>Revive Instagram account by documenting my day-to-day shenanigans</li>
-</ol>
-	<h2>Ongoing things:</h2>
-		<p>learn javascript & php, make "niche" miniprojects & document visually.</p>
-		<p>move work to GitHub's codespace feature.</p>
-	<p>Thanks for stopping by!</p>
-	<a href="https://www.instagram.com/htmlcass/">Instagram: @htmlcass</a>
-</body>
-</head>
 
-<!--Limit Instagram posts to MAX:1 per day!!!-->
+<div class="nav">
+	<a href="#home"><img src="me.jpg"/></a>
+	<a href="#work">Work</a>
+	<a href="#about">About</a>
+	<a href="#tools">Tools</a>
+	<a href="#contact">Contact</a>
+</div>
+
+<!--Home-->
+<div class="one" id="home">
+<div class="block">
+	<h1>Cassandra Carlos</h1>
+	<h2>Front-end website developer</h2>
+</div>
+</div>
+
+<!--Work-->
+<div class="two" id="work">
+<div class="block"><h1>Work</h1>
+
+	<!--01(Pulled-Pork)-->
+	<h2>Pulled Pork</h2>
+	<img src="images/bbcms.png" alt="pulled pork"/>
+		<button href="pulled-pork.com" target="_blank">Visit the Website</button>
+		<button href="github.com" target="_blank">See the Code</button>
+
+	<!--02(Blueberry)-->
+	<h2>Blueberry</h2>
+	<img src="images/builtbetter.png" alt="blueberry"/>
+		<button href="pulled-pork.com" target="_blank">Visit the Website</button>
+		<button href="github.com" target="_blank">See the Code</button>
+
+	<!--03(Liar's-Handshake)-->
+	<h2>Liar's Handshake</h2>
+	<img src="images/techjobme.png" alt="liar's handshake" />
+		<button href="pulled-pork.com" target="_blank">Visit the Website</button>
+		<button href="github.com" target="_blank">See the Code</button>
+
+</div>
+</div>
+
+<!--About-->
+<div class="three" id="about">
+<div class="block"><h1>About</h1>
+	<p>I am a front-end developer from Vancouver, BC. Uldren was later revived by a Ghost, nicknamed Pulled Pork, becoming a Guardian. After he was revived, he named his Ghost Glint. He was unable to remember any of his past life and was confused by the negative reactions other Guardians showed toward him; however, based on their reactions, he determined that he had not been “a good person” in his past life. As a result, he remained wary of other Guardians he came into contact with.</p>
+</div>
+</div>
+
+<!--Tools-->
+<div class="three" id="tools">
+<div class="block"><h1>Tools</h1>
+	<ul>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+		<li>JQuery</li>
+		<li>React</li>
+	</ul>
+</div>
+</div>
+
+<!--Contact-->
+<div class="four" id="contact">
+<div class="block"><h1>Contact</h1>
+
+	<a href="github.com" target="_blank">GitHub</a>
+	<a href="linkedin.com" target="_blank">LinkedIn</a>
+	
+	<p>Email codingcass@gmail.com</p>
+
+	<form action="/action_page.php">
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		<input type="text" id="lname" name="lastname" placeholder="Your email..">
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+		<input type="submit" value="Submit">
+	</form>
+	
+</div>
+</div>
+
+<!--Footer-->
+<div class="five" id="footer">
+<div class="block">
+	<p>© Cassandra Carlos 2023. All rights reserved.</p>
+</div>
+</div>
+
+</body>
+</html>

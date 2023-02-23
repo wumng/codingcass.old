@@ -4,3 +4,58 @@
 margin: 0;
 box-sizing: border-box;
 }
+
+body {
+width: 65vw;
+margin-left: auto;
+margin-right: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1,h2,h3,h4{
+margin:0;
+}
+
+.nav{
+top:0;
+position: sticky;
+background:white;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+box-sizing: border-box;
+resize: vertical;
+}
+input[type=submit] {
+border: none;
+cursor: pointer;
+}
+input[type=submit]:hover {
+color: white;
+background: black;
+}
+
+/*Home*/.one {
+min-height:.5vh;}
+/*Work*/.two {
+min-height:.5vh;}
+/*About*/.three {
+min-height:.5vh;}
+/*Contact*/.four {
+min-height:.5vh;}
+
+.block {
+padding:10px;}
+
+.two img{
+width:100%;
+height:100%;
+border:1px solid black;
+}

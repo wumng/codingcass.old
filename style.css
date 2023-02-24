@@ -1,3 +1,4 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -27,7 +28,7 @@ top:0;
 position: sticky;
 background:white;
 }
-
+*/
 input[type=text], select, textarea {
 width: 100%;
 box-sizing: border-box;
@@ -42,20 +43,102 @@ color: white;
 background: black;
 }
 
-/*Home*/.one {
-min-height:.5vh;}
-/*Work*/.two {
-min-height:.5vh;}
-/*About*/.three {
-min-height:.5vh;}
-/*Contact*/.four {
-min-height:.5vh;}
 
-.block {
-padding:10px;}
-
-.two img{
-width:100%;
-height:100%;
-border:1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+margin: 0;
+color: #ddd;
+background: #050505;
+font-family: 'Poppins', sans-serif;
+}
+main {
+width: 60vw;
+margin: 0 auto;
+}
+.topnav {
+overflow: hidden;
+position: sticky;
+top: 0;
+background: #050505;
+}
+.topnav a {
+display: block;
+float: right;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+background: #ddd;
+color: #050505;
+}
+.topnav a.active {
+float: left;
+background: #06a172;
+color: white;
+}
+.topnav .icon {
+display: none;
+}
+@media screen and (max-width: 600px) {
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+float: right;
+display: block;
+}
+}
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+.topnav.responsive a {
+float: none;
+display: block;
+text-align: left;
+}
+}
+.resume {
+padding: 10px 25px;
+font-weight: 500;
+background: transparent;
+outline: none !important;
+cursor: pointer;
+transition: all 0.05s ease;
+position: relative;
+text-decoration: none;
+display: inline-block;
+}
+.resume {
+border: 2px solid #00be85;
+z-index: 1;
+color: white;
+}
+.resume:after {
+position: absolute;
+content: "";
+width: 100%;
+height: 0;
+bottom: 0;
+left: 0;
+z-index: -1;
+background: #00be85;
+transition: all 0.3s ease;
+}
+.resume:hover {
+color: white;
+}
+.resume:hover:after {
+top: 0;
+height: 100%;
+}
+.resume:active {
+top: 2px;
+}
+img {
+width: 100%;
 }

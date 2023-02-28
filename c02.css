@@ -1,11 +1,2 @@
-@media only screen and (max-width: 1000px) {
-    body {
-        margin: 0;
-        width: 100%;
-    }
-}
-
-.button {
-    padding: .5em;
-    border: 1px solid #fff;
-}
+.button {padding: .5em;border: 1px solid #fff;}
+.block {min-height: 100vh;}

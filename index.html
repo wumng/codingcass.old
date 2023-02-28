@@ -1,5 +1,6 @@
 <!DOCTYPE html> 
 <html>
+
 <head>
     <title>Cassandra Carlos | Websites</title>
     <link rel="stylesheet" href="c01.css">
@@ -9,82 +10,77 @@
 
 <body>
 
-<span id="00"></span>
-
-<header>
-    <a href="#00">C.</a>
-    <a href="#01">About</a>
-    <a href="#02">Skills</a>
-    <a href="#03">Work</a>
-    <a href="#04">Contact</a>
-</header>
-
-<section>
-<h1>Cassandra Carlos</h1><br>
-    <a class="button" href="#03">View Work</a>
+<section id="00" class="block">
+    <span><!--NavBar-->
+        <a href="#00">
+            C.</a>
+        <a href="#01">
+            About</a>
+        <a href="#02">
+            Skills</a>
+        <a href="#03">
+            Work</a>
+        <a href="#04">
+            Contact</a>
+    </span>
+    <div class="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);"><!--Hero-->
+        <h1>Cassandra Carlos</h1><br>
+        <a class="button" href="#03">View Work</a>
+    </div>
 </section>
 
-<span id="01"></span>
-<br>
-
-<section>
+<section id="01" class="block">
 <h2>About</h2>
-    <p>I have a passion for creating designs with code or better known as a front-end developer. I am from Vancouver BC. I love creating visual and interactive designs that engage the user. My goal is to bring your ideas to life on the web.</p><br>
+    <p>Hi, I'm Cassandra!<br>Website developer in Vancouver, British Columbia. I love creating visual and interactive designs that engage the user.</p><br>
         <a class="button" href="#04">Contact</a>
-        <a class="button" href="resume.html" target="_blank">Resume</a>
+        <a class="button" href="work/resume.pdf" target="_blank">Resume</a>
 </section>
 
-<span id="02"></span>
-<br>
-
-<section>
+<section id="02" class="block">
 <h2>Skills</h2>
     <p>JavaScript<br>React<br>JQuery<br>PHP<br>MySQL<br>HTML & CSS</p>
 </section>
 
-<span id="03"></span>
-<br>
-
-<section>
+<section id="03" class="block">
 <h2>Work</h2>
-<article>
-    <img src="images/halftruths.png" />
-    <h3>Project Name</h3>
-        <p>Some text.</p>
-        <br>
-        <a class="button" href="work/w01.html" target="_blank">Visit the Site</a>
-        <a class="button" href="work/w01.html" target="_blank">See the Code</a>
-    <br><br>
-</article>
-<article>
-    <img src="images/pulledpork.png" />
-    <h3>Project Name</h3>
-        <p>Some text.</p>
-        <br>
-        <a class="button" href="work/w02.html" target="_blank">Visit the Site</a>
-        <a class="button" href="work/w02.html" target="_blank">See the Code</a>
-    <br><br>
-</article>
-<article>
-    <img src="images/reach.png" />
-    <h3>Project Name</h3>
-        <p>Some text.</p>
-        <br>
-        <a class="button" href="work/w03.html" target="_blank">Visit the Site</a>
-        <a class="button" href="work/w03.html" target="_blank">See the Code</a>
-</article>
+    <table>
+        <tr>
+            <td><img src="images/halftruths.png" /><br></td><td style="padding-left: 1em;"><h3>Medtrics Lab</h3><p>A healthcare education platform. I designed & developed their website, increasing organic leads up to 4x in under a year.</p><br><a class="button" href="work/w01.html" target="_blank">Launch Site</a></td>
+        </tr>
+        <tr>
+            <td><img src="images/pulledpork.png" /><br></td><td style="padding-left: 1em;"><h3>ICG Approved</h3><p>The Innovation Collaboration Group - a PropTech collective providing new solutions for the property industry.</p><br><a class="button" href="work/w01.html" target="_blank">Launch Site</a></td>
+        </tr>
+        <tr>
+            <td><img src="images/reach.png" /><br></td><td style="padding-left: 1em;"><h3>Plantpower Mastering</h3><p>Audio mastering services. A simple website to display relevant information & an order form for customers to use..</p><br><a class="button" href="work/w01.html" target="_blank">Launch Site</a></td>
+        </tr>
+    </table>
 </section>
 
-<span id="04"></span><br>
-
-<footer>
+<section id="04" class="block">
+<!--Temporary Break--><br>
 <h2>Contact</h2>
-    <p>Send me an email at codingcass@gmail.com</p><br>
-    <a class="button" href="https://github.com/codingcass" target="_blank">GitHub</a>
-    <a class="button" href="https://www.linkedin.com/in/cassandra-carlos/" target="_blank">LinkedIn</a>
-</footer>
-<p>© Copyright 2023. All right reserved</p>
-
+    <a href="https://github.com/codingcass" target="_blank"><img style="width:35px; height:35px;" src="images/github.png" alt="Link to my GitHub profile."/></a>
+    <a href="https://www.linkedin.com/in/cassandra-carlos/" target="_blank"><img style="width:35px; height:35px;" src="images/linkedin.png" alt="Link to my LinkedIn profile."/></a>
+    <!--
+    <br>
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email address...">
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Your message..."></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    -->
+    <p>codingcass@gmail.com</p><br>
+    <p>© Copyright 2023. All right reserved</p>
+</section>
 
 </body>
 </html>
